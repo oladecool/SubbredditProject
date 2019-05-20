@@ -1,0 +1,51 @@
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+.login-container, .home-container{
+    margin: 100px auto;
+}
+.card{
+    min-width: 500px;
+   
+}
+.card-title{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.login-container input[type="submit"] {
+    margin-bottom: 30px;
+    background: #2980b9;
+    border:2px solid #2980b9;
+    color: #fff
+}
+body {
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.home-container .card {
+    /* width: 700px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px
+
+    
+}
+.home-container .card img {
+    width: 200px;
+    min-height: 200px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(233, 185, 185, 0.2)185, 0.2)
+}
+
+.home-container .card-text {
+    position: absolute;
+    right: 20px;
+    bottom: 10px
+}
+
